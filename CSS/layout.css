@@ -1,0 +1,137 @@
+section{
+  max-width: fit-content;
+  margin: 0 auto;
+
+}
+
+.a{
+  background-color: rosybrown;
+  width: 480px;
+  height: 75px;
+} 
+
+.b{
+  background-color: skyblue;
+  width: 480px;
+  height: 150px;
+} 
+
+.c{
+  background-color: palegoldenrod;
+}
+
+.d{
+  background-color: lavender;
+}
+
+.c, .d{
+  width: 480px;
+  height: 125px;
+
+}
+
+.e{
+  background-color: burlywood;
+}
+
+.f{
+  background-color: cadetblue;
+}
+
+.e, .f{
+
+    width: 240px;
+    height: 250px;
+    float: left;
+}
+
+.g{
+  background-color: palegreen;
+  width: 240px;
+  height: 250px;
+  clear: left;
+  float: left;
+}
+
+.h{
+  background-color: peachpuff;
+  width: 240px;
+  height: 250px;
+}
+
+.i{
+  background-color: rgb(124, 124, 69);
+  max-width: 480px;
+  height: 80px;
+}
+
+@media (min-width:768px){
+
+  section{
+    max-width: fit-content;
+    height: fit-content;
+    margin: auto;
+    
+  
+  }
+  
+  .a{
+    background-color: black;
+    width: 960px;
+    height: 100px;
+  } 
+  
+  .b{
+    background-color: rgb(39, 39, 39);
+    width: 200px;
+    height: 600px;
+    float: left;
+  } 
+  
+  .c{
+    background-color: rgb(48, 47, 47);
+    width: 380px;
+    height: 200px;
+    float: left;
+  
+  }
+
+  .d{
+    background-color: rgb(59, 59, 59);
+    width: 380px;
+    height: 200px;
+    float: inherit
+  }
+  
+  .e{
+    background-color: rgb(87, 86, 86);
+  }
+
+  .f{
+    background-color: rgb(117, 116, 116);
+  }
+
+  .g{
+    background-color: rgb(97, 88, 88);
+  }
+
+  .h{
+    background-color: rgb(73, 66, 66);
+  }
+
+
+  .e, .f, .g, .h{
+  
+      width: 190px;
+      height: 250px;
+      clear: right;
+  }
+  
+  .i{
+    background-color: rgb(202, 73, 73);
+    max-width: 760px;
+    height: 150px;
+  }
+
+
+}

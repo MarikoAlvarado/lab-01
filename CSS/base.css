@@ -71,3 +71,11 @@ p, footer{
   }
 
 }
+
+/* @media (min-height: 500px){
+
+  p, footer{
+    color: rgb(197, 32, 32);
+    max-width: 50%;
+  }
+} */

@@ -1,7 +1,8 @@
 section{
-  max-width: fit-content;
+  max-width: 480px;
   margin: 0 auto;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .a{
@@ -42,15 +43,15 @@ section{
 
     width: 240px;
     height: 250px;
-    float: left;
+    /* float: left; */
 }
 
 .g{
   background-color: palegreen;
   width: 240px;
   height: 250px;
-  clear: left;
-  float: left;
+  /* clear: left;
+  float: left; */
 }
 
 .h{
@@ -63,14 +64,20 @@ section{
   background-color: rgb(124, 124, 69);
   max-width: 480px;
   height: 80px;
+  flex-grow: 1;
 }
 
 @media (min-width:768px){
 
   section{
-    max-width: fit-content;
-    height: fit-content;
-    margin: auto;
+    max-width: 960px !important;
+    height: fit-content !important;
+    margin: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    
+   
+
     
   
   }
@@ -85,14 +92,14 @@ section{
     background-color: rgb(39, 39, 39);
     width: 200px;
     height: 600px;
-    float: left;
+    /* float: left; */
   } 
   
   .c{
     background-color: rgb(48, 47, 47);
     width: 380px;
     height: 200px;
-    float: left;
+    /* float: left; */
   
   }
 
@@ -100,7 +107,7 @@ section{
     background-color: rgb(59, 59, 59);
     width: 380px;
     height: 200px;
-    float: inherit
+    /* float: inherit */
   }
   
   .e{
@@ -121,10 +128,10 @@ section{
 
 
   .e, .f, .g, .h{
-  
       width: 190px;
       height: 250px;
-      clear: right;
+      -ms-flex-line-pack: start !important;
+      
   }
   
   .i{
